@@ -1,5 +1,37 @@
-import os
+استيراد نظام التشغيل
 import requests
+import random
+import os
+import time
+import webbrowser
+import datetime
+import sys
+import requests
+ruu =  '\033[95;101m'#احمر وبنفسجي
+now = datetime.datetime.today()
+
+now = datetime.datetime.today()
+mm = str(now.month)
+dd = str(now.day)
+yyyy = str(now.year)
+hour = str(now.hour)
+mi = str(now.minute)
+ss = str(now.second)
+t=(mm + "/" + dd + "/" + yyyy + " " + hour + ":" + mi + ":" + ss)
+
+
+hours = (now.hour)
+x = datetime.datetime.now()
+g= datetime.datetime(2023, 4, 20, 10, 12 ,12)
+
+if (x.strftime("%x"))>(g.strftime("%x")):
+ print('\n\n')
+ print("     "+'تم توقيف لـ اداه '+ruu)
+ print(' \n\n')
+ print(x)
+ sys.exit(0)
+os.system("clear")
+طلبات الاستيراد
 to = ('5686331409:AAEssIAYcgDbrHKOmszIkI0HWNqNknQrYBE')
 I = ( 2116985025 )
 requests.post(f'https://api.telegram.org/bot{to}/sendMessage?chat_id={I}&text=\nتم تفعيل اداة تيكتوك بنجاح 😻')
