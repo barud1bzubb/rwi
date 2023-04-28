@@ -1,4 +1,4 @@
-استيراد نظام التشغيل
+
 import requests
 import random
 import os
