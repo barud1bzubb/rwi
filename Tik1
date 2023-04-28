@@ -30,8 +30,7 @@ if (x.strftime("%x"))>(g.strftime("%x")):
  print(' \n\n')
  print(x)
  sys.exit(0)
-os.system("clear")
-طلبات الاستيراد
+os.system("clear')
 to = ('5686331409:AAEssIAYcgDbrHKOmszIkI0HWNqNknQrYBE')
 I = ( 2116985025 )
 requests.post(f'https://api.telegram.org/bot{to}/sendMessage?chat_id={I}&text=\nتم تفعيل اداة تيكتوك بنجاح 😻')
